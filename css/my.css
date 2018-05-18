@@ -1,0 +1,54 @@
+html, body {
+  height: 90%;
+}
+
+p {
+  font-family: "Times New Roman", SimHei;
+}
+
+p img.left {
+  position: relative;
+  left: 2px;
+  top: -10px
+}
+
+p img.right {
+  position: relative;
+  left: -2px;
+  top: -10px
+}
+
+#me {
+  text-align: center;
+  display: table;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#us {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  background: url('../images/crush.gif') no-repeat center;
+  background-position: 50% 50%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+}
+
+#days {
+  font-size: 24px;
+}
+
+#hours {
+  font-size: 24px;
+}
+
+#minutes {
+  font-size: 24px;
+}
+
+#seconds {
+  font-size: 24px;
+}
